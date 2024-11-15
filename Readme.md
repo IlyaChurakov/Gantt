@@ -26,16 +26,19 @@
 - TaskEnd - конец задачи
 
 Маштаб графика
+
 $$
 Scale = (DayMs / GridWidth) / EndPeriod - StartPeriod
 $$
 
 Отступ задачи от начала периода
+
 $$
 TaskOffset = ((TaskStart - PeriodStart) / DayMs) * Scale + 'px';
 $$
 
 Ширина задачи
+
 $$
 TaskWidth = ((TaskEnd - TaskStart) / DayMs) * Scale + 'px';
 $$
