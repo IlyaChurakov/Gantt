@@ -4,7 +4,6 @@ import { formatter } from './utils';
 import Tooltip from './Tooltip';
 import { memo } from 'react';
 import style from './Gantt.module.css';
-import React from 'react';
 
 export const Task = memo(
   ({
